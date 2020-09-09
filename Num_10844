@@ -38,6 +38,7 @@ class Main {
         for(int i = 0; i < 10; i++){
             sum += dp[n][i];
         }
+        
 
         sum %= 1000000000;
 
